@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATIVE ATTIRE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><div class="logo">FABRICS</div></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fat fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h3 class="attire">ATTIRE DETAILS</h3>
+        <div class="fab1">
+      <a href="cloth2.html">
+        <div class="pro">
+            <img src="images/fab29.jpg" alt="">
+             <div class="des">
+                 <span>ANKARA</span>
+                 <h5>Native attire</h5>
+                 <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                 </div>
+                 <h4>&#8358;71,438</h4>
+             </div>
+             <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+         </div>
+ 
+      </a>
+            <div class="cloth-dt">
+               <h3 class="cloth-h3">Qty Of Cloth</h3>
+               <input class="cloth-input" name="tot_pin_requested"  oninput="calculateAmount(this.value)" id="unit" max="10" required>
+               <h3 class="cloth-h3">Total</h3>
+               <input type="text" class="cloth-input" name="tot_amount" id="tot_amount" readonly>
+               <div>
+               <a href="buy.html">
+                <button class="cloth-btn">BUY NOW</button>
+               </a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1  section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail update about our latest shop and <span>Special offers</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+             <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+           <div class="logo">FABRICS</div>
+           <h4>Contact</h4>
+           <p><strong>Address:</strong> No 67, Ladega street, Ikorodu</p>
+           <p><strong>Phone Number:</strong> +234 1999 3400</p>
+           <p><strong> Hours:</strong> 07:00 - 05:00pm. Mon - Sat</p>
+           <div class="follow">
+               <h4>Follow us</h4>
+               <div class="icon">
+                   <i class="fab fa-facebook-f"></i>
+                   <i class="fab fa-twitter"></i>
+                   <i class="fab fa-instagram"></i>
+                   <i class="fab fa-pinterest"></i>
+               </div>
+           </div>
+        </div>
+
+        <div class="col">
+           <h4>About</h4>
+           <a href="#">About Us</a>
+           <a href="#">Delivery Info</a>
+           <a href="#">Privacy Policy</a>
+           <a href="#">Terms & Condition</a>
+           <a href="#">Contact Us</a> 
+        </div>
+
+        <div class="col">
+           <h4>My Account</h4>
+           <a href="#">Sign In</a>
+           <a href="#">View Cart</a>
+           <a href="#">My Wishlist</a>
+           <a href="#">Track My order</a>
+           <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+           <h4>Install App</h4>
+           <p>From App Store or Google Play</p>
+           <div class="row">
+               <img src="" alt="">
+               <img src="" alt="">
+           </div>
+           <p>Secured Payment Gateways</p>
+           <img src="" alt="">
+        </div>
+
+   </footer>
+</body>
+<script>
+    function calculateAmount(val) {
+        var tot_price = val * 71438
+    
+        var divoj= document.getElementById('tot_amount')
+        divoj.value = tot_price;
+    }
+        </script>
+</html>

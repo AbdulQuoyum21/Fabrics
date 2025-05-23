@@ -1,0 +1,27 @@
+.congrat{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 700px;
+    margin-left: 300px;
+}
+.thank{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enjoy{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link{
+    text-align: center;
+    margin-top:250px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    color: #088178;
+}
